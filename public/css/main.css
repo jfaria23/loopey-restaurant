@@ -1,0 +1,12 @@
+body {
+  background-color: yellow;
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
