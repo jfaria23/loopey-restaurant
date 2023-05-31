@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+{{#if price}}
+  <h2>Price {{price}}</h2>
+{{else}}
+  <h2>Price upon request</h2>
+{{/if}}
+<h2>{{recommendedDrink}}</h2>
+
+<hr />
+
+<div>
+  <h2>Ingredients</h2>
+  <ul>
+    {{#each ingredients}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+</div>
+
+<img src="/images/{{imageFile}}" alt="" />
+
+{{> banner}}

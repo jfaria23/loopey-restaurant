@@ -1,5 +1,5 @@
 body {
-  background-color: yellow;
+  background-color: rgb(225, 195, 73);
   text-align: center;
 }
 nav {
@@ -8,5 +8,8 @@ nav {
   justify-content: center;
   padding-top: 2rem;
   margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+nav a {
   padding: 0 1rem;
 }
